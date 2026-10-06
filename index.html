@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>V.K.P. Brick | Dhaneli</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f5f5f5;
+  color:#222;
+}
+
+header{
+  background:linear-gradient(135deg,#7b160c,#d84315);
+  color:white;
+  text-align:center;
+  padding:35px 15px;
+}
+
+header h1{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+header p{
+  font-size:17px;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
+}
+
+.hero{
+  background:white;
+  border-radius:18px;
+  overflow:hidden;
+  margin-top:20px;
+  box-shadow:0 4px 15px #0002;
+}
+
+.hero img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+}
+
+.hero-text{
+  padding:25px;
+  text-align:center;
+}
+
+.hero-text h2{
+  color:#b52b16;
+  margin-bottom:10px;
+}
+
+.card{
+  background:white;
+  margin-top:20px;
+  padding:25px;
+  border-radius:18px;
+  box-shadow:0 4px 15px #0002;
+}
+
+.card h2{
+  color:#b52b16;
+  margin-bottom:15px;
+}
+
+.info{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+
+.info-box{
+  background:#fff3ef;
+  padding:20px;
+  border-radius:12px;
+  text-align:center;
+}
+
+.info-box b{
+  display:block;
+  font-size:22px;
+  color:#b52b16;
+  margin-top:8px;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:15px;
+}
+
+.gallery img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  border-radius:12px;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  justify-content:center;
+  margin-top:20px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:30px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.call{
+  background:#1565c0;
+}
+
+.whatsapp{
+  background:#159447;
+}
+
+.order{
+  background:#d84315;
+}
+
+.location{
+  background:#6a1b9a;
+}
+
+footer{
+  margin-top:25px;
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:25px 15px;
+}
+
+@media(max-width:500px){
+  header h1{
+    font-size:24px;
+  }
+
+  .hero img{
+    height:220px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>V.K.P. Brick में आपका स्वागत है</h1>
+  <p>मजबूत और गुणवत्तापूर्ण ईंट — आपके निर्माण के लिए</p>
+</header>
+
+<div class="container">
+
+  <!-- MAIN PHOTO -->
+  <section class="hero">
+
+    <!-- बाद में अपनी Brick की फोटो लगाने के लिए
+         नीचे वाली photo का नाम बदलें -->
+    <img src="images/brick-main.jpg" alt="V.K.P. Brick">
+
+    <div class="hero-text">
+      <h2>V.K.P. Brick</h2>
+      <p>Dhaneli-1, Raipur, Chhattisgarh</p>
+    </div>
+
+  </section>
+
+
+  <!-- BRICK DETAILS -->
+  <section class="card">
+
+    <h2>🧱 Brick की जानकारी</h2>
+
+    <div class="info">
+
+      <div class="info-box">
+        📏
+        <p>Brick Size</p>
+        <b>Standard Size</b>
+      </div>
+
+      <div class="info-box">
+        💰
+        <p>1 Piece Rate</p>
+        <b>₹5</b>
+      </div>
+
+      <div class="info-box">
+        🧱
+        <p>Product</p>
+        <b>Red Brick</b>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- PHOTO GALLERY -->
+  <section class="card">
+
+    <h2>📸 Brick Photos</h2>
+
+    <div class="gallery">
+
+      <img src="images/brick-main.jpg" alt="Brick Photo 1">
+
+      <img src="images/brick-2.jpg" alt="Brick Photo 2">
+
+      <img src="images/brick-3.jpg" alt="Brick Photo 3">
+
+      <img src="images/brick-4.jpg" alt="Brick Photo 4">
+
+    </div>
+
+    <p style="text-align:center;margin-top:15px;">
+      फोटो पर क्लिक करके Brick की तस्वीरें देखें।
+    </p>
+
+  </section>
+
+
+  <!-- ORDER -->
+  <section class="card">
+
+    <h2>🛒 Order करें</h2>
+
+    <p style="text-align:center;">
+      Brick खरीदने के लिए हमें Call या WhatsApp करें।
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn call"
+         href="tel:7470435835">
+         📞 Call करें
+      </a>
+
+      <a class="btn whatsapp"
+         href="https://wa.me/917470435835?text=Namaste%20V.K.P.%20Brick%20se%20brick%20order%20karna%20hai."
+         target="_blank">
+         💬 WhatsApp Order
+      </a>
+
+      <a class="btn order"
+         href="tel:7470435835">
+         🛒 Order करें
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- LOCATION -->
+  <section class="card">
+
+    <h2>📍 हमारी Location</h2>
+
+    <p style="text-align:center;margin-bottom:15px;">
+      Ring Road No. 3, Vidhansabha Road Line,<br>
+      Dhaneli-1, Raipur, Chhattisgarh
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn location"
+         href="https://www.google.com/maps/search/?api=1&query=Dhaneli-1%20Raipur%20Chhattisgarh"
+         target="_blank">
+         📍 Google Maps में Location देखें
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="card">
+
+    <h2>📞 Contact करें</h2>
+
+    <p style="text-align:center;font-size:20px;">
+      <b>7470435835</b>
+    </p>
+
+    <div class="buttons">
+
+      <a class="btn call" href="tel:7470435835">
+        📞 Call
+      </a>
+
+      <a class="btn whatsapp"
+         href="https://wa.me/917470435835"
+         target="_blank">
+        💬 WhatsApp
+      </a>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<footer>
+  <h3>V.K.P. Brick</h3>
+  <p>Quality Bricks • Best Price • Easy Order</p>
+  <p>© 2026 V.K.P. Brick</p>
+</footer>
+
+</body>
+  </html>
